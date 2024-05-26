@@ -1,0 +1,85 @@
+.button--primary {
+    border: none;
+    background: none;
+    background-color: #212121;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+    /* padding: 12px 16px 12px 16px; */
+    /* padding-top: 12px;
+    padding-right:16px;
+    padding-bottom: 12px;
+    padding-left: 16px; */
+}
+  
+.button--primary:hover {
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
+  
+.button--primary:active {
+box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+}
+  
+.button--secondary {
+background: none;
+border: 1px solid #263238;
+padding: 12px 16px;
+text-transform: uppercase;
+font-weight: 700;
+border-radius: 8px;
+cursor: pointer;
+transition: all 150ms ease-in-out;
+}
+  
+.button--secondary:hover{
+background-color: #2632382d;
+}
+
+.button--secondary:active{
+background-color: transparent;
+}
+
+/* div {
+color: red;
+background-color: black
+}
+
+h1 {
+color: green;
+background-color: red;
+}
+  
+span {
+color: pink;
+background-color: black;
+}
+
+p {
+color: yellow;
+background-color: blue;
+border: 5px solid black;
+
+}
+
+button {
+color: purple;
+background-color: lightblue;
+border: 2px solid purple;
+border-radius: 7px;
+padding: 10px 30px;
+font-size: 16px;
+}
+
+input {
+border-radius: 5px;
+padding: 9px 16px;
+color: blue;
+} */

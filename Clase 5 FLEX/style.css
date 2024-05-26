@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+  
+html{
+    font-family: "Poppins", sans-serif;
+}
+  
+button{
+    font-family: "Poppins", sans-serif;
+}
+  
+li{
+    list-style: none;
+}
+  
+.header{
+    padding: 16px 24px;
+    background-color: aquamarine;
+}
+  
+.navbar-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1024px;
+   margin: 0 auto;
+}
+  
+.nav{
+   display: flex;
+   gap: 30px;
+}
+  
+.nav__link{
+   font-weight: 400;
+   cursor: pointer;
+   transition: all 250ms ease-in-out;
+}
+  
+.nav__link:hover{
+    color:red;
+    transform: scale(1.05);
+}
+  
+.navbar-container__button{
+    border: none;
+    background: none;
+    background-color: #416675;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}

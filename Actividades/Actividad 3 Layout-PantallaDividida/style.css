@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #323B4B;
+    --text-color: #5D6A83;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body {
+    font-family: "Inter", sans-serif;
+}
+
